@@ -1,0 +1,13 @@
+/*About Section*/
+.biopic {
+    width: 100%;
+}
+
+.about h2 {
+    font-size: 1.75em;
+}
+
+.about p {
+    font-size: 1.15em;
+    line-height: 1.45em;
+}

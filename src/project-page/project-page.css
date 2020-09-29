@@ -1,0 +1,20 @@
+.project-title {
+    margin: 3em 3% 1em 3%;
+}
+
+.project-page h3{
+    margin: .5em 3% 1em 3%;
+}
+
+
+.col-container {
+    overflow: visible;
+    height: 100%;
+}
+
+.project-description {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+}

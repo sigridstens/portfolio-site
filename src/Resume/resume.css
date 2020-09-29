@@ -1,0 +1,30 @@
+/* Resume Section */
+.resume {
+    font-size: .95em;
+}
+
+.resume-section {
+    margin-bottom: 3em;
+}
+
+.resume-section h2, .resume-section h3, .resume-section h4 {
+    margin: 0.5em 0;
+}
+
+.resume-section p {
+    margin: .5em 0 2.5em 0;
+}
+
+.resume-section h2 {
+    color: var(--orange);
+}
+
+.resume-section ul li {
+    padding: .25em 0;
+}
+
+.date {
+    font-style: italic;
+    font-weight: normal;
+
+}

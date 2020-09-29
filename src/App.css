@@ -1,0 +1,123 @@
+/* Apply a natural box layout model to all elements, but allowing components to change
+Credit: Paul Irish
+ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* GLOBAL STYLES */
+:root {
+  --orange: #F05424;
+  --pink: #EEC4CE;
+  --yellow: #FBDB56;
+  --blue-grey: #263d45;
+  --cream: #FBEDCC;
+  --black: #000;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  letter-spacing: .025em;
+  font-size: 1em;
+  position: relative;
+  line-height: 1.45;
+  margin: auto;
+  max-width: 70rem;
+  color: var(--blue-grey);
+}
+
+.background{
+  width: 150%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+
+}
+
+.text-blurb {
+  padding: .35em 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue-grey);
+  border-bottom: 2px solid var(--yellow);
+  font-weight: 500;
+}
+
+/* Main Section */
+main {
+  width: 80%;
+  z-index: 10;
+  margin: 10% auto 5% auto;
+}
+
+.col-container {
+  display: flex;
+  position: relative;
+}
+
+.col {
+  margin: 3%;
+  flex-basis: 50%;
+}
+
+.col-twothirds {
+  flex-basis: 66%;
+}
+
+.col-onethird {
+  flex-basis: 33%;
+}
+
+.col-threequarters {
+  flex-basis: 75%;
+}
+
+.col-onequarter {
+  flex-basis: 25%;
+}
+
+
+
+/* Home Page Styles */
+
+
+
+
+
+
+
+
+
+
+
+
+/*For smaller screen sizes*/
+@media only screen and (max-width : 768px) {
+  .project-preview {
+    flex-basis: 47.5%;
+  }
+}
+
+/* For Smartphones */
+@media only screen and (max-device-width : 320px) {
+  .project-preview {
+    flex-basis: 98%;
+  }}
+
+
+
+
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 0 0 1em 0;
+  width: 100%;
+}

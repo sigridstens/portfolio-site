@@ -1,0 +1,89 @@
+/* Header Section */
+header {
+    width: 100%;
+    padding: 10em 4em 3em 4em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header a {
+    border-bottom: none;
+    width: fit-content;
+    padding: 0;
+}
+
+header h1, header h2 {
+    color: var(--blue-grey);
+}
+
+header h1 {
+    font-size: 2em;
+    margin: .5em 0 0 0;
+}
+
+header h2 {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+header .main-nav {
+    font-size: 1.15em;
+}
+
+header .main-nav ul {
+    list-style-type: none;
+    color: var(--black);
+    font-weight: bold;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .main-nav ul li {
+    position: relative;
+    margin: .5em 1em;
+}
+
+header .main-nav ul ul {
+    flex-direction: column;
+    display: none;
+}
+
+
+header .main-nav a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -.5em;
+    left: 0;
+    background-color: var(--orange);
+}
+
+header .main-nav a:hover::after {
+    visibility: visible;
+    width: 100%;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+header a.main-nav-active-link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -.5em;
+    left: 0;
+    background-color: var(--orange);
+    z-index: 100;
+}
+
+
+.logo h1, .logo h2 {
+    width: fit-content;
+}
+
+.ampersand {
+    color: var(--orange);
+}
+
