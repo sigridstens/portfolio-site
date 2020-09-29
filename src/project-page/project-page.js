@@ -9,7 +9,6 @@ function ProjectPage(props) {
   let { id } = useParams();
   console.log(projects);
   // find id in projects
-  //const project = projects.find(project => project.linkpath === `/project-page/${id}`)
   const project = projects.find(function (project) {
     return project.linkpath === `/project-page/${id}`
   });

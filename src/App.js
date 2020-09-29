@@ -7,11 +7,24 @@ import Contact from './Contact/contact';
 import Portfolio from './Portfolio/portfolio.js';
 import Resume from './Resume/resume.js';
 import Footer from './Footer/footer.js';
-import {Route} from 'react-router-dom';
+import {Route, useLocation} from 'react-router-dom';
 import ProjectPage from "./project-page/project-page";
 
 
 function App() {
+  const location = useLocation();
+  console.log(location.pathname);
+
+  let htmlElement = document.getElementsByTagName("html")
+
+  if (location.pathname == "/about" || location.pathname == "/contact") {
+    htmlElement[0].classList.remove("light-theme");
+    htmlElement[0].classList.add("dark-theme");
+  } else {
+    htmlElement[0].classList.remove("dark-theme");
+    htmlElement[0].classList.add("light-theme");
+  }
+
   return (
     <div className="App">
         <Header />

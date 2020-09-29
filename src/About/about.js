@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.css';
+import {Link} from "react-router-dom";
 
 
 function About() {
@@ -13,11 +14,11 @@ function About() {
                 <h2>Hi there! I'm Sigrid Stensvold, a Minneapolis-based designer, illustrator, and web developer.</h2>
 
                 <div>
-                    <p>I am an artist with a wide variety of interests who specializes in creating lively designs, whimsical illustrations, and interactive web experiences. </p>
+                    <p>I am a designer and developer who specializes in creating lively designs, whimsical illustrations, and interactive web experiences. </p>
 
                     <p>When I am not working on freelance work or school projects, you might find me attempting to garden, plotting my next long distance bike tour, or cooking up something spontaneous in my kitchen.</p>
 
-                    <p>Looking for a fresh perspective on an upcoming project? Let's connect!</p>
+                  <p>Looking for a fresh perspective on an upcoming project? <Link to="/contact">Let's connect!</Link></p>
                 </div>
             </section>
         </main>

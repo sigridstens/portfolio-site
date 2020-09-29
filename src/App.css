@@ -4,6 +4,7 @@ Credit: Paul Irish
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -46,15 +47,35 @@ body {
 a {
   text-decoration: none;
   color: var(--blue-grey);
-  border-bottom: 2px solid var(--yellow);
+  border-bottom: 2px solid var(--orange);
   font-weight: 500;
+}
+
+/* Dark Theme Styles */
+
+.dark-theme {
+  background-color: var(--blue-grey);
+  color: white;
+}
+
+.dark-theme a, .dark-theme p, .dark-theme h2, .dark-theme h3, .dark-theme h4 {
+  color: white;
+}
+
+.dark-theme .logo {
+  fill: white;
+}
+
+.light-theme {
+  background-color: white;
+  color: var(--blue-grey);
 }
 
 /* Main Section */
 main {
   width: 80%;
   z-index: 10;
-  margin: 10% auto 5% auto;
+  margin: 10% auto 16em auto;
 }
 
 .col-container {
