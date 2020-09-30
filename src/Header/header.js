@@ -22,6 +22,16 @@ const Navigation = (props) => {
         return () => window.removeEventListener('resize', handleResize);
     }, []);*/
 
+    {/**/}
+
+
+       function toggleNav() {
+            const mainNav = document.getElementsByClassName("main-nav")[0];
+
+            mainNav.classList.toggle("nav-open");
+        }
+
+
     const showNav = () => {
         return (
             <header className="App-header">
@@ -35,9 +45,11 @@ const Navigation = (props) => {
                 </Link>
 
                 <nav className="main-nav">
+                    <i className="fas fa-hamburger menu-icon" onClick={toggleNav}></i>
+                    <i className="fas fa-times close-icon" onClick={toggleNav}></i>
                     <ul>
                         <li>
-                            <Link to="/" className={`${route === '/' ? 'main-nav-active-link portfolio-link' : 'portfolio-link'}`} >Portfolio</Link>
+                            <Link to="/" className={`${route === '/' ? 'main-nav-active-link portfolio-link' : 'portfolio-link'}`} onClick={toggleNav}>Portfolio</Link>
                             <ul>
                                 <li>
                                     <Link to="/">Graphic Design</Link>
@@ -62,14 +74,14 @@ const Navigation = (props) => {
                             </ul>
                         </li>
                         <li>
-                            <Link to="/resume" className={`${route === '/resume' ? 'main-nav-active-link' : ''}`}>Resume</Link>
+                            <Link to="/resume" className={`${route === '/resume' ? 'main-nav-active-link' : ''}`} onClick={toggleNav}>Resume</Link>
                         </li>
                         <li>
-                            <Link to="/about" className={`${route === '/about' ? 'main-nav-active-link about-link' : 'about-link'}`}>About Me</Link>
+                            <Link to="/about" className={`${route === '/about' ? 'main-nav-active-link about-link' : 'about-link'}`} onClick={toggleNav}>About Me</Link>
                         </li>
 
                         <li>
-                            <Link to="/contact" className={`${route === '/contact' ? 'main-nav-active-link' : ''}`}>Contact</Link>
+                            <Link to="/contact" className={`${route === '/contact' ? 'main-nav-active-link' : ''}`} onClick={toggleNav}>Contact</Link>
                         </li>
                     </ul>
                 </nav>

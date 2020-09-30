@@ -49,6 +49,17 @@ footer {
 }
 
 @media only screen and (max-width : 768px) {
-    .footer {
+    footer {
+        padding: 1em 2em;
+    }
+
+    .social-icons {
+        font-size: .75em;
+        padding: .5em;
+        margin: auto;
+        width: fit-content;
+    }
+    footer p {
+        flex-basis: 50%;
     }
 }

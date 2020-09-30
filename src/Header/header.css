@@ -7,7 +7,7 @@ header {
     max-width: 65rem;
     margin: auto;
     overflow: hidden;
-
+    font-size: .9em;
 }
 
 header a {
@@ -34,6 +34,10 @@ header h2 {
 header .main-nav {
     font-size: 1.15em;
     display: flex;
+}
+
+header .main-nav .menu-icon, header .main-nav .close-icon {
+    display: none;
 }
 
 header .main-nav ul {
@@ -140,43 +144,42 @@ header a.main-nav-active-link.portfolio-link::after {
 
 
 /*For small screen sizes*/
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 900px) {
+    header {
+        font-size: .78em;
+    }
+
+    header ul li {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width : 765px) {
     header {
         flex-direction: column;
     }
 
-    /*
+    .App-header {
+        padding: 2em 6% 0 6%;
+    }
 
-header .main-nav a.portfolio-link:hover::after {
-    width: 100%;
-    height: 5px;
-    bottom: -.25em;
-    left: 0;
-    border-radius: 0;
+    header .main-nav .menu-icon {
+        display: block;
+        position: absolute;
+        top: 1%;
+        right: 6%;
+        font-size: 1.5em;
+    }
 
-}
-
-header a.main-nav-active-link::after {
-    width: 100%;
-    height: 5px;
-    bottom: -.25em;
-    left: 0;
-    border-radius: 0;
-}
-
-header a.main-nav-active-link.portfolio-link::after {
-    width: 100%;
-    height: 5px;
-    bottom: -.25em;
-    left: 0;
-}
+    .dark-theme header .main-nav .menu-icon {
+        color: white;
+    }
 
 
-header .main-nav {
-font-size: 1.15em;
-display: flex;
-}
-*/
+    header .main-nav ul {
+        display: none;
+    }
+
     header .main-nav ul {
         flex-direction: column;
         justify-content: flex-end;
@@ -188,10 +191,16 @@ display: flex;
         margin: .5em 1em;
     }
 
-    {
-        color: var(--blue-grey);
+    header .logo {
+        margin: auto;
+        width: 45%;
     }
 
+    header h2 {
+        font-size: .9em;
+    }
+
+    /*Removing circle styling effects in nav*/
     header .main-nav a::after,
     header .main-nav a:hover::after,
     header a.main-nav-active-link::after,
@@ -206,6 +215,9 @@ display: flex;
         border-radius: 0;
     }
 
+    header a.main-nav-active-link {
+        border-bottom: 4px solid var(--orange);
+    }
 
     .light-theme header a.main-nav-active-link, header a.main-nav a:hover {
         color: var(--blue-grey);
@@ -215,6 +227,45 @@ display: flex;
         color: white;
     }
 
+    header .main-nav.nav-open {
+        position: absolute;
+        width: 75%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        background-color: var(--blue-grey);
+        padding: 3em 1em;
+    }
 
+    header .main-nav.nav-open ul {
+        display: flex;
+        top: 0;
+        align-self: flex-start;
+    }
 
+    header .main-nav.nav-open ul a {
+        color: white;
+    }
+
+    .dark-theme header .main-nav.nav-open {
+        background-color: white;
+    }
+
+    .dark-theme header .main-nav.nav-open ul a, .dark-theme header .main-nav.nav-open .close-icon {
+        color: var(--blue-grey);
+    }
+
+    header .main-nav.nav-open .menu-icon {
+        display: none;
+    }
+
+    header .main-nav.nav-open .close-icon {
+        display: block;
+        color: white;
+        position: absolute;
+        top: 1.5em;
+        right: 1.5em;
+    }
 }
+

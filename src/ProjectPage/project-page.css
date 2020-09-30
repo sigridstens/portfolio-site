@@ -18,3 +18,13 @@
     top: 0;
     align-self: flex-start;
 }
+
+
+
+
+/*For smaller screen sizes*/
+@media only screen and (max-width : 768px) {
+    .project-description {
+        position: relative;
+    }
+}

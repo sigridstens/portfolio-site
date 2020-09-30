@@ -5,7 +5,6 @@ import {Link} from 'react-router-dom';
 
 
 function ProjectPreview(props) {
-    console.log(props);
     return(
         <figure className="project-preview">
             <Link to={props.linkpath}>
