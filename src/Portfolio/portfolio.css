@@ -1,8 +1,7 @@
 /*Portfolio Section*/
 .gallery {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .gallery a {
@@ -25,7 +24,8 @@
 .project-preview:hover figcaption {
     display: flex;
     position: absolute;
-    top: 0;
+    bottom: 0;
+    left: 0;
     padding: 2em;
     background-color: rgba(255,255,255,.75);
     text-align: center;

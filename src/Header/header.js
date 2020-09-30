@@ -37,7 +37,7 @@ const Navigation = (props) => {
                 <nav className="main-nav">
                     <ul>
                         <li>
-                            <Link to="/" className={`${route === '/' ? 'main-nav-active-link' : ''}`}>Portfolio</Link>
+                            <Link to="/" className={`${route === '/' ? 'main-nav-active-link portfolio-link' : 'portfolio-link'}`} >Portfolio</Link>
                             <ul>
                                 <li>
                                     <Link to="/">Graphic Design</Link>
@@ -65,7 +65,7 @@ const Navigation = (props) => {
                             <Link to="/resume" className={`${route === '/resume' ? 'main-nav-active-link' : ''}`}>Resume</Link>
                         </li>
                         <li>
-                            <Link to="/about" className={`${route === '/about' ? 'main-nav-active-link' : ''}`}>About Me</Link>
+                            <Link to="/about" className={`${route === '/about' ? 'main-nav-active-link about-link' : 'about-link'}`}>About Me</Link>
                         </li>
 
                         <li>

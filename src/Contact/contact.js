@@ -14,16 +14,16 @@ function Contact() {
                 </div>
 
                 <div className="text-blurb">
-                    <h3>...Or find me on these platforms:</h3>
-                    <p>Instagram: <a href="#" >@sigridstensvold</a></p>
-                    <p>Github: <a href="#" >@sigridstens</a></p>
-                    <p>LinkedIn: <a href="#" >Sigrid Stensvold</a></p>
+                    <h3>...or find me on these platforms:</h3>
+                    <p>Instagram: <a href="https://www.instagram.com/sigridstensvold/" >@sigridstensvold</a></p>
+                    <p>Github: <a href="https://github.com/sigridstens" >@sigridstens</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/sigrid-stensvold-bb2ab5a0/" >Sigrid Stensvold</a></p>
 
                 </div>
             </section>
 
             <figure className="col col-two">
-                <img src={process.env.PUBLIC_URL + '/images/desk-vista.jpg'} className="biopic" alt="A view from my desk" />
+                <img src={process.env.PUBLIC_URL + '/images/baby-sigrid.jpg'} className="biopic" alt="My inner artist" />
             </figure>
         </main>
     )

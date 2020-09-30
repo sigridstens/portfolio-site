@@ -16,18 +16,18 @@ function ProjectPage(props) {
   return(
     <main className="project-page">
       <h2 className="project-title">{project.name}</h2>
-      <h3>Type: {project.type}</h3>
+      <h3>{project.type}</h3>
 
       <div className="col-container">
+        <figure className="col col-twothirds project-images">
+          <img src={process.env.PUBLIC_URL + project.imgpath} className="project-img" alt={props.alt} />
+        </figure>
+
         <section className="col col-onethird project-description">
           <p>{project.descriptionParaOne}</p>
           <p>{project.descriptionParaTwo}</p>
           <p>{project.descriptionParaThree}</p>
         </section>
-
-        <figure className="col col-twothirds project-images">
-          <img src={process.env.PUBLIC_URL + project.imgpath} className="project-img" alt={props.alt} />
-        </figure>
       </div>
     </main>
     )

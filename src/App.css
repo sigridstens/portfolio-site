@@ -26,8 +26,6 @@ body {
   font-size: 1em;
   position: relative;
   line-height: 1.45;
-  margin: auto;
-  max-width: 70rem;
   color: var(--blue-grey);
 }
 
@@ -73,9 +71,10 @@ a {
 
 /* Main Section */
 main {
-  width: 80%;
+  max-width: 63rem;
   z-index: 10;
-  margin: 10% auto 16em auto;
+  margin: 10% auto 20em auto;
+  padding: 0 3em;
 }
 
 .col-container {
@@ -106,18 +105,6 @@ main {
 
 
 
-/* Home Page Styles */
-
-
-
-
-
-
-
-
-
-
-
 
 /*For smaller screen sizes*/
 @media only screen and (max-width : 768px) {
@@ -133,12 +120,3 @@ main {
   }}
 
 
-
-
-
-/* Footer Section */
-footer {
-  text-align: center;
-  padding: 0 0 1em 0;
-  width: 100%;
-}
