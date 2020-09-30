@@ -1,27 +1,35 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './project-page.css';
 import {Link, useParams} from 'react-router-dom';
 import {projects} from '../Portfolio/portfolio.js';
+import ProjectImage from "../ProjectImage/project-image";
 
 
 
 function ProjectPage(props) {
   let { id } = useParams();
-  console.log(projects);
   // find id in projects
   const project = projects.find(function (project) {
     return project.linkpath === `/project-page/${id}`
   });
+  console.log(project);
+
 
   return(
     <main className="project-page">
       <h2 className="project-title">{project.name}</h2>
-      <h3>{project.type}</h3>
+      <h3>{project.role}</h3>
 
       <div className="col-container">
-        <figure className="col col-twothirds project-images">
-          <img src={process.env.PUBLIC_URL + project.imgpath} className="project-img" alt={props.alt} />
-        </figure>
+        <section className="col col-twothirds project-images">
+          {project.projectImages.map(image => {
+            return (
+              <ProjectImage
+               imgpath={image}
+              />
+            )
+          })}
+        </section>
 
         <section className="col col-onethird project-description">
           <p>{project.descriptionParaOne}</p>

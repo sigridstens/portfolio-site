@@ -8,7 +8,7 @@ import Portfolio from './Portfolio/portfolio.js';
 import Resume from './Resume/resume.js';
 import Footer from './Footer/footer.js';
 import {Route, useLocation} from 'react-router-dom';
-import ProjectPage from "./project-page/project-page";
+import ProjectPage from "./ProjectPage/project-page";
 
 
 function App() {
