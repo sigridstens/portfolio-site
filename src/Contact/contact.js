@@ -15,7 +15,7 @@ function Contact() {
 
                 <div className="text-blurb">
                     <h3>...or find me on these platforms:</h3>
-                    <p>Instagram: <a href="https://www.instagram.com/sigridstensvolddesign/" >@sigridstensvolddesign</a></p>
+                  {/*<p>Instagram: <a href="https://www.instagram.com/sigridstensvolddesign/" >@sigridstensvolddesign</a></p>*/}
                     <p>Github: <a href="https://github.com/sigridstens" >@sigridstens</a></p>
                     <p>LinkedIn: <a href="https://www.linkedin.com/in/sigrid-stensvold-bb2ab5a0/" >Sigrid Stensvold</a></p>
 

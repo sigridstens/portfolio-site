@@ -6,9 +6,9 @@ function Footer() {
     return(
         <footer className="footer">
             <section className="social-icons">
-              <a href="https://www.instagram.com/sigridstensvold/">
+              {/*<a href="https://www.instagram.com/sigridstensvold/">
                 <i className="fab fa-instagram"></i>
-              </a>
+              </a>*/}
               <a href="https://github.com/sigridstens">
                 <i className="fab fa-github-square"></i>
               </a>
