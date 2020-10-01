@@ -3,7 +3,6 @@ import '../App.css';
 import {Link} from 'react-router-dom';
 
 
-
 function ProjectPreview(props) {
     return(
         <figure className="project-preview">

@@ -154,6 +154,7 @@ header a.main-nav-active-link.portfolio-link::after {
     }
 }
 
+
 @media only screen and (max-width : 765px) {
     header {
         flex-direction: column;
@@ -166,8 +167,8 @@ header a.main-nav-active-link.portfolio-link::after {
     header .main-nav .menu-icon {
         display: block;
         position: absolute;
-        top: 1%;
-        right: 6%;
+        top: 4em;
+        right: 1.75em;
         font-size: 1.5em;
     }
 
@@ -242,6 +243,10 @@ header a.main-nav-active-link.portfolio-link::after {
         display: flex;
         top: 0;
         align-self: flex-start;
+    }
+
+    header .main-nav.nav-open ul ul {
+        display: none;
     }
 
     header .main-nav.nav-open ul a {

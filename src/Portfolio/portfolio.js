@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './portfolio.css';
 import ProjectPreview from "../ProjectPreview/project-preview";
 
@@ -8,7 +8,7 @@ export const projects = [
         type:"Graphic Design, Web Design, Web Development",
         role:"Branding and Web Development -- In Progress",
         previewImgPath: "/images/project-images/mole-preview.jpg",
-        previewImgPathMobile: "/images/mobile-preview/mole-preview-mobile.jpg",
+        previewImgPathMobile: "/images/mobile-preview/mole-preview-mobile.png",
         projectImages:[
             "/images/project-images/mole-project-branding.png",
             "/images/project-images/mole-project-webdesign.png",
@@ -42,7 +42,7 @@ export const projects = [
         type:"Graphic Design",
         role:"Branding & Identity Design",
         previewImgPath: "/images/project-images/spritzspuntini-preview.png",
-        previewImgPathMobile: "/images/project-images/spritzspuntini-project-mockup.jpg",
+        previewImgPathMobile: "/images/project-images/spritzspuntini-project-mockup.png",
         projectImages: [
             "/images/project-images/spritzspuntini-project-moodboard.jpg",
             "/images/project-images/spritzspuntini-project-branding.png",
@@ -124,7 +124,7 @@ export const projects = [
         type:"Illustration",
         role:"Illustration",
         previewImgPath: "/images/project-images/valentines-preview.png",
-        previewImgPathMobile: "/images/mobile-preview/valentines-preview-mobile.jpg",
+        previewImgPathMobile: "/images/mobile-preview/valentines-preview-mobile.png",
         projectImages: [
             "/images/project-images/valentines-project-takeyouout.png",
             "/images/project-images/valentines-project-allriledup.png",
@@ -215,31 +215,76 @@ export const projects = [
     }
 ];
 
-function Portfolio() {
+const Portfolio = (props) => {
+    const [windowSize, setWindowSize] = useState(window.innerWidth);
 
-    return(
-        <main>
-            <section className="filtering">
-            </section>
+    useEffect(() => {
+        if (!typeof window === 'object') {
+            return false;
+        }
+        function handleResize() {
+            setWindowSize(window.innerWidth);
+        }
 
-            <section className="gallery">
-                {projects.map(project => {
-                    return (
-                        <ProjectPreview
-                            name={project.name}
-                            type={project.type}
-                            role={project.role}
-                            imgpath={project.previewImgPath}
-                            linkpath={project.linkpath}
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
-                        />
-                    )
-                })}
-            </section>
-        </main>
+
+    const showPortfolio = (props) => {
+        if (windowSize > 765) {
+            return (
+              <main>
+                  <section className="filtering">
+                  </section>
+
+                  <section className="gallery">
+                      {projects.map(project => {
+                          return (
+                            <ProjectPreview
+                              name={project.name}
+                              type={project.type}
+                              role={project.role}
+                              imgpath={project.previewImgPath}
+                              linkpath={project.linkpath}
+
+                            />
+                          )
+                      })}
+                  </section>
+              </main>
+            )
+        } else {
+            return (
+              <main>
+                  <section className="filtering">
+                  </section>
+
+                  <section className="gallery">
+                      {projects.map(project => {
+                          return (
+                            <ProjectPreview
+                              name={project.name}
+                              type={project.type}
+                              role={project.role}
+                              imgpath={project.previewImgPathMobile}
+                              linkpath={project.linkpath}
+
+                            />
+                          )
+                      })}
+                  </section>
+              </main>
+            )
+        }
+    }
+
+    return (
+      <div>
+          {showPortfolio()}
+      </div>
     )
-}
-
+};
 
 
 export default Portfolio;

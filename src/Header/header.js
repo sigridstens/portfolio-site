@@ -4,25 +4,13 @@ import {Link, withRouter} from 'react-router-dom';
 
 
 const Navigation = (props) => {
-    //const [windowSize, setWindowSize] = useState(window.innerWidth);
     const [route, setRoute] = useState('');
 
     useEffect(() => {
         setRoute(props.location.pathname);
     }, [props.location]);
 
-    /*useEffect(() => {
-        return ((!typeof window !=== 'object'));
-
-        const handleResize = () => {
-            setWindowSize(window.innerWidth);
-        };
-
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);*/
-
-       function toggleNav() {
+    function toggleNav() {
             const mainNav = document.getElementsByClassName("main-nav")[0];
 
             mainNav.classList.toggle("nav-open");

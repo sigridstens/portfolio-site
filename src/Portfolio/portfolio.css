@@ -48,3 +48,29 @@
 .project-img {
     width: 100%;
 }
+
+
+/*For smartphones*/
+@media only screen and (max-width : 765px) {
+    .gallery {
+        flex-flow: row wrap;
+    }
+
+    .project-preview {
+        flex-basis: 48%;
+    }
+
+    .project-preview:hover figcaption {
+        padding: 1em;
+        background-color: rgba(255, 255, 255, .75);
+        text-align: center;
+    }
+    .project-preview h2 {
+        font-size: 1em;
+    }
+
+    .project-preview h3 {
+        font-size: .8em;
+    }
+
+}
