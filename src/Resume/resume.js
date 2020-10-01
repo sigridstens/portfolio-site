@@ -19,7 +19,7 @@ function Resume() {
                     <h2>Experience</h2>
                     <h3>Freelance Graphic Designer <span className="date">(12/2018 - present)</span></h3>
                     <h4>Self-Employed – Minneapolis, MN</h4>
-                    <p>Freelance graphic designer specializing in branding and identity design, logo design, and web design.</p>
+                    <p>Freelance graphic designer specializing in graphic and web design. Client work ranges from logo design and brand identity development to web design, illustration and motion design.</p>
 
                     <h3>HTML/CSS Peer Tutor <span className="date">(12/2019 - present)</span></h3>
                     <h4>Minneapolis College of Art and Design – Minneapolis, MN</h4>
