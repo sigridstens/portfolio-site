@@ -2,10 +2,14 @@
     margin: 3em 3% 1em 3%;
 }
 
-.project-page h3{
-    margin: .5em 3% 1em 3%;
+.project-page h3 {
+    margin: .5em 3%;
 }
 
+.project-page a {
+    font-size: .9em;
+    margin: .5em 3% 1em 3%;
+}
 
 .col-container {
     overflow: visible;
@@ -23,7 +27,9 @@
     margin: 1em 0;
 }
 
-
+.hidden {
+    display: none;
+}
 
 
 /*For smaller screen sizes*/

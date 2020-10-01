@@ -7,6 +7,7 @@ export const projects = [
         name: "Museum of Lost Experiences",
         type:"Graphic Design, Web Design, Web Development",
         role:"Branding and Web Development -- In Progress",
+        projectURL:"https://processmuseumoflostexperiences.wordpress.com/",
         previewImgPath: "/images/project-images/mole-preview.jpg",
         previewImgPathMobile: "/images/mobile-preview/mole-preview-mobile.png",
         projectImages:[
@@ -24,6 +25,7 @@ export const projects = [
         name: "Summer Nature Art Camp for Kids (SNACK)",
         type:"Graphic Design",
         role:"Branding and Illustration",
+        projectURL:"https://www.solonspringsforward.org/snack-2020",
         linkpath:"/project-page/snack",
         previewImgPath: "/images/project-images/snack-preview.png",
         previewImgPathMobile: "/images/mobile-preview/snack-preview-mobile.jpg",
@@ -57,6 +59,7 @@ export const projects = [
         name:"Solon Springs Educational Foundation",
         type:"Graphic Design",
         role:"Logo Design",
+        projectURL:"https://solonspringsef.org/",
         previewImgPath: "/images/project-images/ssef-preview.jpg",
         previewImgPathMobile: "/images/mobile-preview/ssef-preview-mobile.jpg",
         projectImages: [
@@ -72,6 +75,7 @@ export const projects = [
         name:"Mountain Bike Travel",
         type:"Graphic Design",
         role:"Branding & Identity Design",
+        projectURL: "https://mtnbiketravel.com/",
         previewImgPath: "/images/project-images/mtnbiketravel-preview.jpg",
         previewImgPathMobile: "/images/mobile-preview/mtnbiketravel-preview-mobile.jpg",
         projectImages: [
@@ -87,6 +91,7 @@ export const projects = [
         name: "Our Saviour's Lutheran Church",
         type: "Graphic Design",
         role: "Branding & Identity Design",
+        projectURL: "https://oslcsolon.org/",
         previewImgPath: "/images/project-images/oslc-preview.png",
         previewImgPathMobile: "/images/mobile-preview/oslc-preview-mobile.jpg",
         linkpath: "/project-page/oslc",
