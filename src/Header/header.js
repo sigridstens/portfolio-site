@@ -22,9 +22,6 @@ const Navigation = (props) => {
         return () => window.removeEventListener('resize', handleResize);
     }, []);*/
 
-    {/**/}
-
-
        function toggleNav() {
             const mainNav = document.getElementsByClassName("main-nav")[0];
 

@@ -6,8 +6,9 @@ export const projects = [
     {
         name: "Museum of Lost Experiences",
         type:"Graphic Design, Web Design, Web Development",
-        role:"Design and Web Development",
+        role:"Branding and Web Development -- In Progress",
         previewImgPath: "/images/project-images/mole-preview.jpg",
+        previewImgPathMobile: "/images/mobile-preview/mole-preview-mobile.jpg",
         projectImages:[
             "/images/project-images/mole-project-branding.png",
             "/images/project-images/mole-project-webdesign.png",
@@ -25,6 +26,7 @@ export const projects = [
         role:"Branding and Illustration",
         linkpath:"/project-page/snack",
         previewImgPath: "/images/project-images/snack-preview.png",
+        previewImgPathMobile: "/images/mobile-preview/snack-preview-mobile.jpg",
         projectImages: [
             "/images/project-images/snack-project-branding.jpg",
             "/images/project-images/snack-project-map.jpg",
@@ -40,7 +42,9 @@ export const projects = [
         type:"Graphic Design",
         role:"Branding & Identity Design",
         previewImgPath: "/images/project-images/spritzspuntini-preview.png",
+        previewImgPathMobile: "/images/project-images/spritzspuntini-project-mockup.jpg",
         projectImages: [
+            "/images/project-images/spritzspuntini-project-moodboard.jpg",
             "/images/project-images/spritzspuntini-project-branding.png",
             "/images/project-images/spritzspuntini-project-mockup.png"
         ],
@@ -52,16 +56,16 @@ export const projects = [
     {
         name:"Solon Springs Educational Foundation",
         type:"Graphic Design",
-        role:"Branding & Identity Design",
+        role:"Logo Design",
         previewImgPath: "/images/project-images/ssef-preview.jpg",
+        previewImgPathMobile: "/images/mobile-preview/ssef-preview-mobile.jpg",
         projectImages: [
-            "/images/project-images/snack-project-branding.jpg",
-            "/images/project-images/snack-project-map.jpg",
-            "/images/project-images/snack-project-week5.jpg",
+            "/images/project-images/ssef-project-branding.png",
+            "/images/project-images/ssef-project-mockup.jpg",
         ],
         linkpath: "/project-page/ssef",
-        descriptionParaOne: "This rebrand for the Solon Springs Educational Foundation to help bring its visual aesthetic in line with its work and mission—to provide the students, staff, and the Solon Springs School District with financial support to enrich educational opportunities and programs. The new logo design is striking, simple, and modern, making it easy for current and potential donors to recognize.",
-        descriptionParaTwo: "",
+        descriptionParaOne: "This rebrand for the Solon Springs Educational Foundation to help bring its visual aesthetic in line with its work and mission—to provide the students, staff, and the Solon Springs School District with financial support to enrich educational opportunities and programs.",
+        descriptionParaTwo: "The new logo design is striking, simple, and modern, making it easy for current and potential donors to recognize.",
         descriptionParaThree: "",
     },
     {
@@ -69,6 +73,7 @@ export const projects = [
         type:"Graphic Design",
         role:"Branding & Identity Design",
         previewImgPath: "/images/project-images/mtnbiketravel-preview.jpg",
+        previewImgPathMobile: "/images/mobile-preview/mtnbiketravel-preview-mobile.jpg",
         projectImages: [
             "/images/project-images/mtnbiketravel-project-branding.png",
             "/images/project-images/mtnbiketravel-project-webdesign.png",
@@ -82,37 +87,44 @@ export const projects = [
         name: "Our Saviour's Lutheran Church",
         type: "Graphic Design",
         role: "Branding & Identity Design",
-        previewImgPath: "/images/teasers/oslc-teaser.jpg",
+        previewImgPath: "/images/project-images/oslc-preview.png",
+        previewImgPathMobile: "/images/mobile-preview/oslc-preview-mobile.jpg",
         linkpath: "/project-page/oslc",
         projectImages: [
-            "/images/project-images/snack-project-branding.jpg",
-            "/images/project-images/snack-project-map.jpg",
-            "/images/project-images/snack-project-week5.jpg",
+            "/images/project-images/oslc-project-branding.png",
+            "/images/project-images/oslc-project-letterhead.png",
+            "/images/project-images/oslc-project-mockup.png",
         ],
         descriptionParaOne: "Our Savior’s Lutheran Church is a faith community growing their membership by sharing their values—openness, acceptance, and a belief that our differences are gifts best used to help one another.",
         descriptionParaTwo: "The church’s primary goal for this project was to create a modern identity that helped invite in new members. The logo design depicts the iconic church tower with its door open to all and light spilling out. A subtle cross is present in the logo, to communicate the Christian values of the community, without overwhelming their identity as a welcoming community. Liturgical colors add meaning to the brand, blue for hope, white for light, and gold for joy.",
         descriptionParaThree: "",
     },
     {
-        name:"Hoppy Trails: bikable brewery crawls",
+        name:"Hoppy Trails: bikable beer adventures",
         type:"Graphic Design",
-        role:"Branding & Identity Design",
-        previewImgPath: "/images/teasers/hoppytrails-teaser.jpg",
+        role:"Branding and Mobile App Design",
+        previewImgPath: "/images/project-images/hoppytrails-preview.png",
+        previewImgPathMobile: "/images/mobile-preview/hoppytrails-preview-mobile.jpg",
         projectImages: [
-            "/images/project-images/snack-project-branding.jpg",
-            "/images/project-images/snack-project-map.jpg",
-            "/images/project-images/snack-project-week5.jpg",
+            "/images/project-images/hoppytrails-project-branding.png",
+            "/images/project-images/hoppytrails-project-screen1.png",
+            "/images/project-images/hoppytrails-project-screen2.png",
+            "/images/project-images/hoppytrails-project-screen3.png",
+            "/images/project-images/hoppytrails-project-screen4.png",
+            "/images/project-images/hoppytrails-project-mockup.png",
+            "/images/project-images/hoppytrails-project-bikehelmet.png",
         ],
         linkpath: "/project-page/hoppy-trails",
-        descriptionParaOne: "",
-        descriptionParaTwo: "",
+        descriptionParaOne: "Love bubbly beverages and the wind blowing through your hair as you cruise your way through summer?  Hoppy Trails is a proposed mobile application to simplify planning beer crawls by bike, so that you can spend less time organizing and more time drinking with your friends!",
+        descriptionParaTwo: "The branding and mobile app design of this proposed application was designed during a mid-program course during my M.A. program. Using retro colors and typography, Hoppy Trails taps into 1970s nostalgia to help invoke the freedom and fun that bikable beer adventures embody.",
         descriptionParaThree: "",
     },
     {
         name:"Comfort Food Valentine Cards",
         type:"Illustration",
         role:"Illustration",
-        previewImgPath: "/images/project-images/valentines-preview.jpg",
+        previewImgPath: "/images/project-images/valentines-preview.png",
+        previewImgPathMobile: "/images/mobile-preview/valentines-preview-mobile.jpg",
         projectImages: [
             "/images/project-images/valentines-project-takeyouout.png",
             "/images/project-images/valentines-project-allriledup.png",
@@ -126,25 +138,11 @@ export const projects = [
         descriptionParaThree: "The bright color scheme conveys cheer and excitement. Puns and wit collide merrily with adorable illustrations to create anthropomorphic comfort food that will make even your grumpiest friend or lover smile. Go ahead, eat your heart out."
     },
     {
-        name:"Indexical Vegetables Poster",
-        type:"Illustration",
-        role:"Illustration",
-        previewImgPath: "/images/project-images/indexicalveg-preview.jpg",
-        projectImages: [
-            "/images/project-images/indexicalveg-project-fullposter.jpg",
-            "/images/project-images/indexicalveg-project-mockup.jpg",
-            "/images/project-images/indexicalveg-project-closeup.jpg"
-        ],
-        linkpath: "/project-page/indexical-veggies",
-        descriptionParaOne: "Have you had your recommended daily intake of vegetables today? Feast your eyes upon this medley of healthy and nutritious* vegetables! Bright colors and whimsical illustrative style come together to help whet your appetite for more.",
-        descriptionParaTwo: "*In all seriousness, don’t skimp on those veggies. A healthy diet includes 5-10 servings of vegetables each day for adults, so do the right thing and get eating.",
-        descriptionParaThree: "",
-    },
-    {
         name:"Geometric Typeface",
         type:"Graphic Design",
         role:"Typographer",
         previewImgPath: "/images/project-images/geotypeface-preview.jpg",
+        previewImgPathMobile: "/images/mobile-preview/geotypeface-preview-mobile.jpg",
         projectImages: [
             "/images/project-images/geotypeface-project-fullalpha.png",
             "/images/project-images/geotypeface-project-mockup.jpg",
@@ -156,10 +154,27 @@ export const projects = [
         descriptionParaThree: "",
     },
     {
+        name:"Indexical Vegetables Poster",
+        type:"Illustration",
+        role:"Illustration",
+        previewImgPath: "/images/project-images/indexicalveg-preview.jpg",
+        previewImgPathMobile: "/images/project-images/indexicalveg-project-mockup.jpg",
+        projectImages: [
+            "/images/project-images/indexicalveg-project-fullposter.jpg",
+            "/images/project-images/indexicalveg-project-mockup.jpg",
+            "/images/project-images/indexicalveg-project-closeup.jpg"
+        ],
+        linkpath: "/project-page/indexical-veggies",
+        descriptionParaOne: "Have you had your recommended daily intake of vegetables today? Feast your eyes upon this medley of healthy and nutritious* vegetables! Bright colors and whimsical illustrative style come together to help whet your appetite for more.",
+        descriptionParaTwo: "*In all seriousness, don’t skimp on those veggies. A healthy diet includes 5-10 servings of vegetables each day for adults, so do the right thing and get eating.",
+        descriptionParaThree: "",
+    },
+    {
         name:"Blueberry Summer",
         type:"Guoache & Watercolor Painting",
-        role:"Painting",
+        role:"Guoache & Watercolor Painting",
         previewImgPath: "/images/project-images/blueberrysummer-preview.jpg",
+        previewImgPathMobile: "/images/mobile-preview/blueberrysummer-preview-mobile.jpg",
         projectImages: [
             "/images/project-images/blueberrysummer-project-image.jpg",
             "/images/project-images/blueberrysummer-project-leftpane.jpg",
@@ -175,6 +190,7 @@ export const projects = [
         type:"Watercolor Painting",
         role:"Watercolor Painting",
         previewImgPath: "/images/project-images/fishandchives-preview.jpg",
+        previewImgPathMobile: "/images/mobile-preview/fishandchives-preview-mobile.jpg",
         projectImages: [
             "/images/project-images/fishandchives-project-image.jpg",
         ],
@@ -188,6 +204,7 @@ export const projects = [
         type:"Watercolor Painting",
         role:"Painting",
         previewImgPath: "/images/project-images/plantparty-preview.jpg",
+        previewImgPathMobile: "/images/mobile-preview/plantparty-preview-mobile.jpg",
         projectImages: [
             "/images/project-images/plant-party.jpg"
         ],
@@ -198,8 +215,8 @@ export const projects = [
     }
 ];
 
-
 function Portfolio() {
+
     return(
         <main>
             <section className="filtering">
