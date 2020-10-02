@@ -145,7 +145,7 @@ export const projects = [
     {
         name:"Geometric Typeface",
         type:"Graphic Design",
-        role:"Typographer",
+        role:"Typeface Design",
         previewImgPath: "/images/project-images/geotypeface-preview.jpg",
         previewImgPathMobile: "/images/mobile-preview/geotypeface-preview-mobile.jpg",
         projectImages: [
