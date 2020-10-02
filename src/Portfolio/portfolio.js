@@ -32,7 +32,9 @@ export const projects = [
         projectImages: [
             "/images/project-images/snack-project-branding.jpg",
             "/images/project-images/snack-project-map.jpg",
+            "/images/project-images/snack-project-week2.jpg",
             "/images/project-images/snack-project-week5.jpg",
+            "/images/project-images/snack-project-week4.jpg"
         ],
         projectImgFour: "/images/project-images/snack-project-week2.jpg",
         descriptionParaOne: "When SNACK’s 2020 summer season was interrupted by the covid-19 pandemic they shifted their programming to distance learning, giving local kids backpacks full of laminated activity sheets focused on learning about their local watershed and being creative in nature.",
