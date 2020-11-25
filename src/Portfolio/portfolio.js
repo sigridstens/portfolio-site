@@ -6,8 +6,8 @@ export const projects = [
     {
         name: "Museum of Lost Experiences",
         type:"Graphic Design, Web Design, Web Development",
-        role:"Branding and Web Development -- In Progress",
-        projectURL:"https://processmuseumoflostexperiences.wordpress.com/",
+        role:"Branding & Web Development -- In Progress",
+        projectURL:"https://themuseumoflostexperiences.com/",
         previewImgPath: "/images/project-images/mole-preview.jpg",
         previewImgPathMobile: "/images/mobile-preview/mole-preview-mobile.png",
         projectImages:[
@@ -17,14 +17,14 @@ export const projects = [
         ],
         url: "http://processmuseumoflostexperiences.wordpress.com/",
         linkpath: "/project-page/museum-of-lost-experiences",
-        descriptionParaOne: "The Museum of Lost Experiences is a collection of crowd-sourced creative submissions on the subject of loss. All are welcome submit their own lost experience, and theMoLE encourages participants to use creativity as a way to process their feelings about difficult subjects, while using the collection website to connect intimately with the experiences of others.",
-        descriptionParaTwo: "This project was the culmination of my M.A. program and reflects the skills I learned through my coursework including: branding and identity design, graphic design, web design, front-end web development, and motion graphics. From idea to actualization, theMoLE’s visual aesthetic and functionality reflect user expectations learned from surveying and interviewing.",
-        descriptionParaThree: "The collection revisions what a museum can be, a shared space for artifacts of the human experience. It uses a collage aesthetic in the logo and identity to relate to the idea of disparate experiences coming to live together in one space under a common theme. The friendly color-scheme helps keep the space from being weighed down by the heaviness of some of the topics it holds, to bring focus to the value of processing difficult experiences rather than stewing in them."
+        descriptionParaOne: "The Museum of Lost Experiences is a collection of crowd-sourced creative submissions on the subject of loss. The Museum encourages people to use creativity to help process their difficult feelings, while using the collection website to connect intimately with the experiences of others.",
+        descriptionParaTwo: "This project was the culmination of my M.A. program and reflects the skills I learned through my coursework including: branding and identity design, graphic design, web design, front-end web development, and motion graphics. From idea to actualization, theMoLE’s visual aesthetic and functionality reflect user expectations learned from surveying and user testing.",
+        descriptionParaThree: "The collection reenvisions what a museum can be, a shared space for artifacts of the human experience. The branding uses a collage aesthetic to convey disparate experiences coming together in one space under a common theme. The friendly color-scheme evokes nostalgia and adds an emotional lightness to the collection to bring focus to the value of processing difficult experiences rather than stewing in them."
     },
     {
         name: "Summer Nature Art Camp for Kids (SNACK)",
         type:"Graphic Design",
-        role:"Branding and Illustration",
+        role:"Branding & Illustration",
         projectURL:"https://www.solonspringsforward.org/snack-2020",
         linkpath:"/project-page/snack",
         previewImgPath: "/images/project-images/snack-preview.png",
@@ -38,7 +38,7 @@ export const projects = [
         ],
         projectImgFour: "/images/project-images/snack-project-week2.jpg",
         descriptionParaOne: "When SNACK’s 2020 summer season was interrupted by the covid-19 pandemic they shifted their programming to distance learning, giving local kids backpacks full of laminated activity sheets focused on learning about their local watershed and being creative in nature.",
-        descriptionParaTwo: "Inspired by area flora and homegrown creativity the logo design mimics a potato stamp using hand cut letters, leaves, and texture from an actual potato. Credit for the potato stamp inspiration goes to SNACK organizers. The mark is highly adaptable because of its variety in elements and gives voice to SNACKS interest in fostering creativity,  scientific thinking, and a love of nature.",
+        descriptionParaTwo: "Inspired by area flora and homegrown creativity the logo design mimics a potato stamp using hand cut letters, leaves, and texture from an actual potato. The mark is highly adaptable because of its variety in elements and gives voice to SNACKS interest in fostering creativity,  scientific thinking, and a love of nature.",
         descriptionParaThree: "I also illustrated 10 weeks of activity sheets for SNACK using an iPad and stylus to draw graphics and scenes about the local watershed. The illustrations use a youth-focused color palette and style.",
     },
     {
@@ -90,7 +90,7 @@ export const projects = [
         descriptionParaTwo: "With a muted color palette inspired by the beauty of the Swiss Alps, a bold and edgy sans-serif typeface, and a simple yet distinctive logomark, the brand is austere and adventurous, eager to be paired with gorgeous photos of snowy peaks, lush trails, and intriguing local towns to entice expert riders to sign up for their next adventure.",
         descriptionParaThree: "",    },
     {
-        name: "Our Saviour's Lutheran Church",
+        name: "Our Savior's Lutheran Church",
         type: "Graphic Design",
         role: "Branding & Identity Design",
         projectURL: "https://oslcsolon.org/",
@@ -109,7 +109,7 @@ export const projects = [
     {
         name:"Hoppy Trails: bikable beer adventures",
         type:"Graphic Design",
-        role:"Branding and Mobile App Design",
+        role:"Branding & Mobile App Design",
         previewImgPath: "/images/project-images/hoppytrails-preview.png",
         previewImgPathMobile: "/images/mobile-preview/hoppytrails-preview-mobile.jpg",
         projectImages: [

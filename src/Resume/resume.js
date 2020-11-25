@@ -8,22 +8,24 @@ function Resume() {
             <section className="col col-threequarters">
                 <section className="resume-section">
                     <h2>Education</h2>
-                    <h3>M.A. Graphic and Web Design <span className="date">(graduating 2020)</span></h3>
-                    <p>Minneapolis College of Art and Design — Minneapolis, MN</p>
+                    <h3>M.A. Graphic and Web Design <span className="date">(graduating 12/2020)</span></h3>
+                    <h4>Minneapolis College of Art and Design — Minneapolis, MN</h4>
+                    <p></p>
 
                     <h3>B.S. Anthropology <span className="date">(2015)</span></h3>
-                    <p>University of Wisconsin-Madison — Madison, WI </p>
+                    <h4>University of Wisconsin-Madison — Madison, WI </h4>
+                    <p>Honors in the Liberal Arts, Phi Beta Kappa, Graduated with Distinction</p>
                 </section>
 
                 <section className="resume-section">
                     <h2>Experience</h2>
                     <h3>Freelance Graphic Designer <span className="date">(12/2018 - present)</span></h3>
                     <h4>Self-Employed – Minneapolis, MN</h4>
-                    <p>Freelance graphic designer specializing in graphic and web design. Client work ranges from logo design and brand identity development to web design, illustration and motion design.</p>
+                    <p>Current and recent client work ranges from logo design and brand identity development to web design, illustration and motion design.</p>
 
-                    <h3>HTML/CSS Peer Tutor <span className="date">(12/2019 - present)</span></h3>
+                    <h3>Peer Tutor <span className="date">(12/2019 - present)</span></h3>
                     <h4>Minneapolis College of Art and Design – Minneapolis, MN</h4>
-                    <p>Tutor assisting students in identifying issues within their code and helping them work toward solutions using best practices.</p>
+                    <p>Answer peer questions about HTML, CSS, Javascript, p5.js, p5.play, and Adobe After Effects. Assist students in identifying issues in their work and helping them find solutions.</p>
 
                     <h3>Web Developer Intern <span className="date">(11/2019 - present)</span></h3>
                     <h4>J. Murphy & Associates – Minneapolis, MN</h4>
@@ -39,7 +41,7 @@ function Resume() {
 
                     <h3>Project Manager/Content Creator <span className="date">(9/2015 - 8/2016)</span></h3>
                     <h4>Five Agencies – Seattle, WA</h4>
-                    <p>Launched, project managed, and edited online publication. Created graphics for social media, web, and print use. Wrote content for companies within agency.</p>
+                    <p>Project manager for online publication, including initial launch, contributor management, and ongoing editing. Created graphics for social media, web, and print use. Wrote content for companies within agency.</p>
                 </section>
             </section>
 
@@ -47,27 +49,32 @@ function Resume() {
                 <section className="resume-section">
                     <h2>Proficiencies</h2>
                     <ul>
-                        <li>Illustrator</li>
-                        <li>Photoshop</li>
-                        <li>InDesign</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe InDesign</li>
+                        <li>Adobe After Effects</li>
+                        <li>Adobe XD</li>
                         <li>HTML5</li>
-                        <li>CSS</li>
+                        <li>CSS3</li>
                         <li>JavaScript</li>
+                        <li>React.js</li>
+                        <li>p5.js</li>
                     </ul>
                 </section>
 
                 <section className="resume-section">
                     <h2>Skills</h2>
                     <ul>
-                        <li>Typography</li>
                         <li>Branding</li>
                         <li>Logo Design</li>
                         <li>Design Layout</li>
+                        <li>Typography</li>
                         <li>Graphic Design</li>
+                        <li>Motion Design</li>
                         <li>Web Design</li>
                         <li>Mobile Design</li>
-                        <li>Programming</li>
-                        <li>Copywriting</li>
+                        <li>Front-end Web Development </li>
+                        <li>Copy Writing</li>
                         <li>Customer Service</li>
                     </ul>
                 </section>
