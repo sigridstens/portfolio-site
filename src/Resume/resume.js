@@ -10,6 +10,7 @@ function Resume() {
                     <h2>Education</h2>
                     <h3>M.A. Graphic and Web Design <span className="date">(2020)</span></h3>
                     <h4>Minneapolis College of Art and Design — Minneapolis, MN</h4>
+                    <p></p>
 
                     <h3>B.S. Anthropology <span className="date">(2015)</span></h3>
                     <h4>University of Wisconsin-Madison — Madison, WI </h4>
@@ -26,11 +27,11 @@ function Resume() {
                     <h4>Self-Employed – Minneapolis, MN</h4>
                     <p>Current and recent client work ranges from logo design and brand identity development to web design, illustration and motion design.</p>
 
-                    <h3>Peer Tutor <span className="date">(12/2019 - present)</span></h3>
+                    <h3>Peer Tutor <span className="date">(12/2019 - 12/2020)</span></h3>
                     <h4>Minneapolis College of Art and Design – Minneapolis, MN</h4>
                     <p>Answer peer questions about HTML, CSS, Javascript, p5.js, p5.play, and Adobe After Effects. Assist students in identifying issues in their work and helping them find solutions.</p>
 
-                    <h3>Web Developer Intern <span className="date">(11/2019 - present)</span></h3>
+                    <h3>Web Developer Intern <span className="date">(11/2019 - 5/2020)</span></h3>
                     <h4>J. Murphy & Associates – Minneapolis, MN</h4>
                     <p>Developed new company WordPress site from mock-ups. Created modal plugin that reuses content on staff page.</p>
 
