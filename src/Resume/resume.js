@@ -8,9 +8,8 @@ function Resume() {
             <section className="col col-threequarters">
                 <section className="resume-section">
                     <h2>Education</h2>
-                    <h3>M.A. Graphic and Web Design <span className="date">(graduating 12/2020)</span></h3>
+                    <h3>M.A. Graphic and Web Design <span className="date">(2020)</span></h3>
                     <h4>Minneapolis College of Art and Design — Minneapolis, MN</h4>
-                    <p></p>
 
                     <h3>B.S. Anthropology <span className="date">(2015)</span></h3>
                     <h4>University of Wisconsin-Madison — Madison, WI </h4>
@@ -19,6 +18,10 @@ function Resume() {
 
                 <section className="resume-section">
                     <h2>Experience</h2>
+                    <h3>Interactive Designer <span className="date">(4/2021 - present)</span></h3>
+                    <h4>Intercross – Minneapolis, MN</h4>
+                    <p>Work with a small agency team to nimbly produce marketing campaigns for fortune-500 clients. Design digital assets for clients, create animated gifs from storyboarding to production, develop email campaigns that adhere to email coding standards and WCAG AA accessibility requirements, utilize Figma and Sketch to design microsites.</p>
+
                     <h3>Freelance Graphic Designer <span className="date">(12/2018 - present)</span></h3>
                     <h4>Self-Employed – Minneapolis, MN</h4>
                     <p>Current and recent client work ranges from logo design and brand identity development to web design, illustration and motion design.</p>
@@ -54,11 +57,14 @@ function Resume() {
                         <li>Adobe InDesign</li>
                         <li>Adobe After Effects</li>
                         <li>Adobe XD</li>
+                        <li>Sketch</li>
+                        <li>Figma</li>
                         <li>HTML5</li>
                         <li>CSS3</li>
                         <li>JavaScript</li>
                         <li>React.js</li>
                         <li>p5.js</li>
+                        <li>Email on Acid</li>
                     </ul>
                 </section>
 
@@ -73,6 +79,7 @@ function Resume() {
                         <li>Motion Design</li>
                         <li>Web Design</li>
                         <li>Mobile Design</li>
+                        <li>Email Design and Coding</li>
                         <li>Front-end Web Development </li>
                         <li>Copy Writing</li>
                         <li>Customer Service</li>
